@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    text-align: left;
+
+
+}
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    text-align: left;
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    text-align: left;
+}
+.heading{
+    font-weight: 700;
+    font-size: 40px ;
+    color: hsl(0, 0%, 95%);
+    text-align: left;
+    font-family: head;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 20px;
+    font-family: para;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+div{
+    padding: 50px;
+    width: 250px;
+    height: 50vh;
+    margin-top: auto;
+}
+input {
+    height: 40px ;
+    border-radius: 20px;
+    width: 100px;
+}
+input:hover{
+    cursor: pointer;
+    background: none;
+}
+@font-face {
+    font-family: para;
+    src: url(https://fonts.google.com/specimen/Lexend+Deca);
+}
+@font-face {
+    font-family: head;
+    src: url(https://fonts.google.com/specimen/Big+Shoulders+Display);
+}
